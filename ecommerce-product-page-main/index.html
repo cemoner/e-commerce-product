@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&family=Kumbh+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="backgroundOrnamental" class="closed"></div>
+      <nav id="flexNav">
+        <ul id="mobileUl" class="closed">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div id="container1">
+          <img id="hamburgerMenu" src="/images/download.png" />
+          <h3 id="navText">sneakers</h3>
+          <ul id="desktopUl">
+            <li><div class="hoverContainer">Collections</div></li>
+            <li><div class="hoverContainer">Men</div></li>
+            <li><div class="hoverContainer">Women</div></li>
+            <li><div class="hoverContainer">About</div></li>
+            <li><div class="hoverContainer">Contact</div></li>
+          </ul>
+        </div>
+        <div id="container2">
+          <img id="cart" src="/images/download (1).png" />
+          <div id="cartSymbol"></div>
+          <img id="avatar" src="/images/image-avatar.png" />
+          <div id="cartView">
+            <div id="CartTitle">Cart</div>
+            <div id="empty">Your cart is empty.</div>
+            <div id="items">
+              <img id="itemPhoto" src="/images/image-product-1.jpg" />
+              <div id="itemInfo">
+                <div id="itemDesc">Autumn Limited Edition...</div>
+                <div id="cost"></div>
+              </div>
+              <svg
+                id="trash"
+                width="8%"
+                height="8%"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 22 20"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <path
+                    d="M0 2.625V1.75C0 1.334.334 1 .75 1h3.5l.294-.584A.741.741 0 0 1 5.213 0h3.571a.75.75 0 0 1 .672.416L9.75 1h3.5c.416 0 .75.334.75.75v.875a.376.376 0 0 1-.375.375H.375A.376.376 0 0 1 0 2.625Zm13 1.75V14.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 1 14.5V4.375C1 4.169 1.169 4 1.375 4h11.25c.206 0 .375.169.375.375ZM4.5 6.5c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Zm3 0c0-.275-.225-.5-.5-.5s-.5.225-.5.5v7c0 .275.225.5.5.5s.5-.225.5-.5v-7Z"
+                    id="a"
+                  />
+                </defs>
+                <use fill="#C3CAD9" fill-rule="nonzero" xlink:href="#a" />
+              </svg>
+            </div>
+            <div id="checkOut">Checkout</div>
+          </div>
+        </div>
+      </nav>
+      <section id="grid">
+        <div id="part1">
+          <img id="bigPicture" src="/images/image-product-1.jpg" />
+          <div id="iconPrevious">
+            <img src="/images/previous.png" />
+          </div>
+          <div id="iconNext">
+            <img src="/images/next.png" />
+          </div>
+          <div id="thumbNails">
+            <div class="originals" id="1">
+              <img src="/images/image-product-1-thumbnail.jpg" />
+            </div>
+            <div class="originals" id="2">
+              <img src="/images/image-product-2-thumbnail.jpg" />
+            </div>
+            <div id="3" class="originals">
+              <img src="/images/image-product-3-thumbnail.jpg" />
+            </div>
+            <div id="4" class="originals">
+              <img src="/images/image-product-4-thumbnail.jpg" />
+            </div>
+          </div>
+        </div>
+        <div id="part2">
+          <div id="companyName">SNEAKER COMPANY</div>
+          <div id="productName">Fall Limited Edition Sneakers</div>
+          <p id="productDesc">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div id="pricing">
+            <div>
+              <span id="price">$125.00</span>
+              <span id="discount">50%</span>
+            </div>
+            <div>
+              <div id="normalPrice">
+                $250.00
+                <div id="line"></div>
+              </div>
+            </div>
+          </div>
+          <div id="purchasing">
+            <div id="quantity">
+              <img id="minus" src="/images/minus.jpg" />
+              <div id="amount">0</div>
+              <img id="plus" src="/images/plus.jpg" />
+            </div>
+            <div id="addingToCart">
+              <svg
+                id="cartSvg"
+                width="8%"
+                height="8%"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 22 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="white"
+                  d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z"
+                  fill="#69707D"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <div id="addToCart">Add to Cart</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="/js/hamburgerJs.js"></script>
+    <script src="/js/hover.js"></script>
+    <script src="/js/imageSkip.js"></script>
+    <script src="/js/increment.js"></script>
+    <script src="/js/cart.js"></script>
+  </body>
+</html>
