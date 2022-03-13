@@ -2,7 +2,7 @@
 
 This is a personal website made by me. I tried doing some challenges to improve my skills. I found this challenge on frontendmentor.io!
 
-You can access to the page by using the link below.
+You can access to the page by using the link in the side.
 https://dreamy-boyd-4ccd49.netlify.app/
 
 These are some pictures that show the site.![WhatsApp Image 2022-03-13 at 1 05 52 PM](https://user-images.githubusercontent.com/73660116/158054573-62d03f8c-8a50-494a-a3de-ad4d4d26250b.jpeg)
