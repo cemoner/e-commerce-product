@@ -1,6 +1,6 @@
 # e-commerce-product
 
-This is a personal website made by me. I tried doing some challenges to improve my skills. I found this challenge on frontendmentor.io!
+ This is a personal website made by me. I tried doing some challenges to improve my skills. I found this challenge on frontendmentor.io!
 
 You can access to the page by using the link in the side.
 https://dreamy-boyd-4ccd49.netlify.app/
