@@ -1,0 +1,93 @@
+@mixin h3Size($fontSize) {
+  #flexNav {
+    #navText {
+      font-size: $fontSize;
+    }
+  }
+}
+
+@mixin container2Sizes($cartSize, $avatarSize) {
+  #flexNav {
+    #container2 {
+      #cart {
+        max-width: $cartSize;
+      }
+      #avatar {
+        max-width: $avatarSize;
+      }
+    }
+  }
+}
+
+@mixin flexNavMargin($top, $right, $bottom, $left) {
+  #flexNav {
+    margin: $top $right $bottom $left;
+  }
+}
+
+@mixin cartMargin($margin) {
+  #cart {
+    margin-right: $margin;
+  }
+  #addingToCart #cart {
+    margin-right: $margin;
+  }
+}
+
+@mixin productImageSize($Size) {
+  #part1 {
+    img {
+      width: $Size;
+      border-radius: 0.25rem;
+    }
+  }
+}
+
+@mixin columnSize($columnQuantity, $Size) {
+  #grid {
+    grid-template-columns: repeat($columnQuantity, $Size);
+  }
+}
+
+@mixin textSizes(
+  $companyName,
+  $productName,
+  $productDesc,
+  $price,
+  $normalPrice
+) {
+  #companyName {
+    font-size: $companyName;
+  }
+  #productName {
+    font-size: $productName;
+  }
+  #productDesc {
+    font-size: $productDesc;
+  }
+  #price {
+    font-size: $price;
+  }
+  #normalPrice {
+    font-size: $normalPrice;
+  }
+}
+
+@mixin textMargins($marginSize) {
+  #part2 {
+    :not(:last-child) {
+      margin-bottom: $marginSize;
+    }
+  }
+}
+
+@mixin quantitySize($img, $num) {
+  #amount {
+    width: $num;
+  }
+  #quantity {
+    img {
+      width: $img;
+    }
+  }
+}
